@@ -1,0 +1,75 @@
+{
+  "logistic_order_id": "FOFCL000028466958",
+  "order_ver": "3",
+  "packages": [
+    {
+      "items": [
+        {
+          "condition": "NEW",
+          "reservation_id": "41710174",
+          "insurance": {
+            "currency": "CLP",
+            "fraction": "1",
+            "unit_value": "59990"
+          },
+          "item_info": {
+            "logistic_sku_id": "f9b81f97-a83c-41b8-b1d2-5884dce21812",
+            "offering_id": "16595486",
+            "seller_id": "FALABELLA_CHILE",
+            "seller_sku_id": "16595486",
+            "identifiers": [],
+            "bill_of_materials": []
+          },
+          "logistic_order_item_id": "e16732dc-eb3e-4cbc-9e05-59d929db503d",
+          "quantity": {
+            "number": "1",
+            "unit": "C/U"
+          },
+          "src_item_id": "41a05af3-0859-4d45-b4db-29f1dfed9fcd",
+          "serial_num": [],
+          "references": [],
+          "package_content_type": "STANDARD",
+          "logistic_order_item_type": "REGULAR"
+        }
+      ],
+      "logistic_group_id": "dcbffabd-4e46-4084-9f35-6c9e2c2d3180",
+      "package_id": "PKG0054519720",
+      "shipment_id": "b76b21fa-47da-4c89-ad69-dfe8be7223ea",
+      "state": "SHIPMENT_CONFIRMED",
+      "promised_date": {
+        "service_category": "MESON",
+        "collect_availability_date": "2025-08-02 15:00:00 UTC"
+      },
+      "origin_node_id": "171090ea-b2f2-4d5d-85c8-0fe42524622c",
+      "is_forced_update": false,
+      "last_seen_node": {
+        "operator": {},
+        "unique_references": []
+      }
+    }
+  ],
+  "src_order_id": "2912389430",
+  "src_order_typ": "NORMAL",
+  "state": "ACTIVE",
+  "executed_by": "BACKSTORE",
+  "event_crte_tmst": "2025-08-01 22:45:24.643694 UTC",
+  "event_attr": {
+    "event_id": "a9cdceb8-eada-400c-abfc-e90665bf3bd4",
+    "event_name": "FULFILMENT_ORDER_PACKAGES_DISPATCHED",
+    "entity_id": "FOFCL000028466958",
+    "entity_name": "FOPackagesDispatchedEventData",
+    "event_epoch_tmst": "1754088324643",
+    "event_tmst": "2025-08-01 22:45:24.643694 UTC",
+    "country": "CL",
+    "commerce": "FALABELLA",
+    "mime_typ": "application/json",
+    "multi_part": "false"
+  },
+  "dfl_src_name": "Fulfilment Order",
+  "dfl_crte_tmst": "2025-08-01 23:08:21.309804 UTC",
+  "dfl_q_msg_id": "15109141211860839",
+  "dfl_run_id": "scheduled__2025-08-01T22:30:00+00:00",
+  "executed_at": "2025-08-01 22:45:19.35749 UTC",
+  "parent_source_order_id": "2912389430",
+  "fulfilment_order_type": "FULFILMENT"
+}

@@ -1,0 +1,65 @@
+{
+  "event_attr": {
+    "event_id": "f634c520-c296-4b60-8f02-12a5904ccbaf",
+    "event_type": "FULFILMENT_ORDER_ITEM_QUANTITY_PACKED",
+    "entity_id": "FOFCL000028428544",
+    "entity_type": "FOOrderItemQuantityPackedEventData",
+    "timestamp": "1754054828333",
+    "datetime": "2025-08-01T13:27:08.333294Z",
+    "country": "CL",
+    "commerce": "FALABELLA",
+    "mime_type": "application/json",
+    "multi_part": false
+  },
+  "logistic_order_id": "FOFCL000028428544",
+  "source_order_id": "2911317955",
+  "source_order_type": "GUEST",
+  "order_version": "3",
+  "state": "ACTIVE",
+  "packages": [
+    {
+      "package_id": "PKG0054477102",
+      "logistic_group_id": "e5308a27-1179-41d3-9bf7-5d5bfa26792a",
+      "origin_node_id": "93082be5-e51a-41ae-a9fa-d9acc7f0ddf8",
+      "state": "PACKED",
+      "is_forced_update": false,
+      "items": [
+        {
+          "logistic_order_item_id": "d3d6bfc7-ee04-46d3-8b81-c9a102e18dad",
+          "source_item_id": "73ed5157-17ce-496b-991f-c107de64835a",
+          "package_content_type": "STANDARD",
+          "logistic_order_item_type": "REGULAR",
+          "reservation_id": "41651508",
+          "item_info": {
+            "logistic_sku_id": "647bd97b-226b-45c9-ad9b-05a7787224ed",
+            "seller_sku_id": "19708",
+            "seller_id": "SCCF6C4",
+            "offering_id": "121798724",
+            "identifiers": [],
+            "bill_of_materials": []
+          },
+          "insurance": {
+            "unit_value": "31990",
+            "currency": "CLP",
+            "fraction": "1"
+          },
+          "quantity": {
+            "number": "1",
+            "unit": "unit"
+          },
+          "references": []
+        }
+      ],
+      "promised_date": {
+        "collect_availability_date": "2025-08-02T16:10:00Z",
+        "service_category": "MESON"
+      }
+    }
+  ],
+  "executed_by": "BATCH",
+  "executed_at": "2025-08-01T13:27:02.36344Z",
+  "event_crte_tmst": "2025-08-01 13:27:08.333294 UTC",
+  "dfl_src_name": "Fulfilment Order",
+  "dfl_crte_tmst": "2025-08-01 13:35:21.202709 UTC",
+  "dfl_run_id": "scheduled__2025-08-01T13:00:00+00:00"
+}

@@ -1,0 +1,48 @@
+{
+  "src_order_id": "2911368940",
+  "logistic_order_id": "FOFCL000028430379",
+  "order_items": [
+    {
+      "insurance": {
+        "currency": "CLP",
+        "fraction": "1",
+        "unit_value": "219990"
+      },
+      "item_info": {
+        "logistic_sku_id": "4e937a69-f9a4-4fa9-b878-c878f51841a0",
+        "offering_id": "135877336",
+        "seller_id": "SCAE789",
+        "seller_sku_id": "101141002",
+        "name": "Sofá Polonia 2 Cuerpos Tela Beige",
+        "identifiers": [
+          {
+            "code_type": "BARCODE",
+            "code_sub_type": "FAL",
+            "code_value": "2135877336001"
+          },
+          {
+            "code_type": "BARCODE",
+            "code_sub_type": "SEL",
+            "code_value": "101141002"
+          }
+        ],
+        "bill_of_materials": []
+      },
+      "itinerary_id": "a76a80e4-c1bb-4638-9d8a-846e5d492a89",
+      "logistic_order_item_id": "fb725957-34c1-4aa7-90ca-c8fdcd7462fa",
+      "orgn_node_id": "b320e5c8-18f6-4f8e-ad75-fae69ad66151",
+      "quantity": {
+        "number": "1",
+        "unit": "C/U"
+      },
+      "serial_num": [],
+      "src_item_id": "45888c57-4307-4de7-b715-20227537d7fd",
+      "state": "NEW",
+      "fulfilmentChannel": "FBS",
+      "fulfilmentMode": "CROSSDOCK",
+      "fulfilmentProvider": "SELLER",
+      "pickupType": "DROP_OFF",
+      "logistic_order_item_type": "REGULAR"
+    }
+  ]
+}
