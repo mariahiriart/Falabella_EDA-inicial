@@ -1,5 +1,25 @@
+
+# Entorno virtual y Python
 venv/
 __pycache__/
 *.pyc
 .DS_Store
 .ipynb_checkpoints/
+
+# Datos pesados - NO subir a GitHub (pesan 2GB+)
+outputs/*.npy
+outputs/*.npz
+outputs/*.csv
+*.xlsb
+*.xlsx
+
+# Logs y reentramiento
+logs/
+monitor_*.json
+predictions_log.csv
+
+# Pero SÍ queremos las gráficas y los resultados JSON pequeños
+!outputs/*.png
+!outputs/test_results.json
+!models/*.pkl
+!models/*.json

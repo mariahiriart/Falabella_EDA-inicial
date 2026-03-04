@@ -321,4 +321,4 @@ fig5_resumen_ejecutivo.png
 
 ---
 
-*Elaborado por Conectamos — Logistica Inteligente | Marzo 2026*
+*Elaborado por Conectamos — Logistica Inteligente | Marzo 2026*si, ahora yo voy hacer la parte de data sciencie, necesito que con los datos que tengo , para que cuando vengan los 6 meses ir entreando el modelo te voy a pasar como es la arquitectura del proyecto 

@@ -1,0 +1,34 @@
+# PULSE - Motor Predictivo | Dependencias Python
+# Instalar: pip install -r requirements.txt
+
+# ─── Core ML ──────────────────────────────────────────────────────────────────
+xgboost>=2.0.0
+scikit-learn>=1.3.0
+pandas>=2.0.0
+numpy>=1.24.0
+
+# ─── Explicabilidad ───────────────────────────────────────────────────────────
+shap>=0.44.0
+
+# ─── API de inferencia ────────────────────────────────────────────────────────
+fastapi>=0.104.0
+uvicorn[standard]>=0.24.0
+pydantic>=2.0.0
+
+# ─── Monitoreo / estadísticas ─────────────────────────────────────────────────
+scipy>=1.11.0
+
+# ─── Serialización ────────────────────────────────────────────────────────────
+joblib>=1.3.0
+
+# ─── Visualización ────────────────────────────────────────────────────────────
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# ─── Jupyter (exploración) ────────────────────────────────────────────────────
+jupyter>=1.0.0
+ipykernel>=6.0.0
+
+# ─── Lectura de datos ─────────────────────────────────────────────────────────
+pyxlsb>=1.0.10     # Para leer Muestra_FO.xlsb
+openpyxl>=3.1.0    # Para otros Excel

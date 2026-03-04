@@ -1,0 +1,41 @@
+{
+  "validation": {
+    "pr_auc": 0.34300861735877597,
+    "roc_auc": 0.7080143343565927,
+    "precision": 0.37415676959619953,
+    "recall": 0.5182942879705186,
+    "f1": 0.4345858853390719,
+    "threshold_used": 0.5,
+    "threshold_f1": 0.2935754954814911,
+    "f1_at_threshold_f1": 0.4801247077162899,
+    "threshold_recall": 0.5
+  },
+  "cross_validation": {
+    "pr_auc": 0.6297902624960051,
+    "roc_auc": 0.8355190839053808,
+    "precision": 0.5543698954039529,
+    "recall": 0.5995333848303804,
+    "f1": 0.5662579090516202,
+    "pr_auc_std": 0.026389997191141015,
+    "roc_auc_std": 0.01701288474138439,
+    "precision_std": 0.06657459749237116,
+    "recall_std": 0.0865775594371625,
+    "f1_std": 0.01854691575864968
+  },
+  "params": {
+    "n_estimators": "100",
+    "max_depth": "6",
+    "learning_rate": "0.1",
+    "subsample": "0.8",
+    "colsample_bytree": "0.8",
+    "eval_metric": "aucpr",
+    "random_state": "42",
+    "n_jobs": "-1",
+    "scale_pos_weight": "4.126023337655122"
+  },
+  "scale_pos_weight": 4.126023337655122,
+  "train_size": 138377,
+  "val_size": 35111,
+  "n_features": 1319,
+  "targets_met": false
+}
